@@ -1,0 +1,13 @@
+a=int(input("Enter the first number :"))
+b=int(input("Enter the second number :"))
+
+if a==b:
+    print("The given TWO nmbers are equal ")
+else :
+    print("The given TWO numbers are not equal ")
+    if a>b:
+        print(" The ",a," is Greater than ", b )
+        print("The ",b,"is Smaller than ",a)
+    elif a<b:
+        print(" The ",a," is Smaller than ", b)
+        print(" The ",b," is Greater than ", a)

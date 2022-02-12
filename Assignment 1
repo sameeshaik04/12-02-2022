@@ -6,13 +6,13 @@ ls=100
 cs=90
 ms=120
 ns=80
-dis=100
 sss=int(input('enter the no of santoor soap sets :'))
 lss=int(input('enter the no of lux soap sets :'))
 css=int(input('enter the no of cinthol soap sets :'))
 mss=int(input('enter the no of medimix soap sets :'))
 nss=int(input('enter the no of no.1 soap sets :'))
 bill=(ss*sss)+(ls*lss)+(cs*css)+(ms*mss)+(ns*nss)
+dis=bill/100
 if bill>5000:
    dis=bill*10/100
    tax=0
